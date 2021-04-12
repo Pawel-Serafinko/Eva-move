@@ -653,7 +653,6 @@
     background-color: #80ecffbe;
     box-shadow: 0px 0px 1px 0.5px #8ac1ee7e inset,
         0px 0px 3px 1px rgba(122, 203, 250, 0.9);
-    /* filter: blur(0.5px); */
     animation: diode2 linear 6s infinite;
 }
 .diodeEva::after {
@@ -667,7 +666,6 @@
     border-radius: 50%;
     box-shadow: 0px 0px 1px 0.5px #8ac1ee7e inset,
         0px 0px 3px 1px rgba(122, 203, 250, 0.9);
-    /* filter: blur(0.5px); */
     animation: diode3 linear 6s infinite;
 }
 .diodeEva::before {
@@ -681,7 +679,6 @@
     border-radius: 50%;
     box-shadow: 0px 0px 1px 0.5px #8ac1ee7e inset,
         0px 0px 3px 1px rgba(122, 203, 250, 0.9);
-    /* filter: blur(0.5px); */
     animation: diode1 linear 6s infinite;
 }
 
@@ -736,14 +733,10 @@
     }
     45% {
         background-color: #b42121e8;
-        /* box-shadow: 0px 0px 1px 0.5px #ee8a8a7e inset,
-            0px 0px 3px 1px rgba(250, 122, 122, 0.9); */
     }
 
     54% {
         background-color: #b42121e8;
-        /* box-shadow: 0px 0px 1px 0.5px #ee8a8a7e inset,
-            0px 0px 3px 1px rgba(250, 122, 122, 0.9); */
     }
     60% {
         background-color: #80ecffbe;
@@ -770,14 +763,10 @@
     }
     78% {
         background-color: #b42121e8;
-        /* box-shadow: 0px 0px 1px 0.5px #ee8a8a7e inset,
-            0px 0px 3px 1px rgba(250, 122, 122, 0.9); */
     }
 
     87% {
         background-color: #b42121e8;
-        /* box-shadow: 0px 0px 1px 0.5px #ee8a8a7e inset,
-            0px 0px 3px 1px rgba(250, 122, 122, 0.9); */
     }
     93% {
         background-color: #80ecffbe;
