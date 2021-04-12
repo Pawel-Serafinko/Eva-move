@@ -23,8 +23,8 @@
 #evaContainer::after {
     content: "";
     position: absolute;
-    width: 500px;
-    height: 700px;
+    width: 100%;
+    height: 100%;
     background-image: radial-gradient(
         circle at 60% 10%,
         #207ac43d 10%,
@@ -36,8 +36,8 @@
 #evaContainer::before {
     content: "";
     position: absolute;
-    width: 500px;
-    height: 700px;
+    width: 100%;
+    height: 100%;
     background-image: radial-gradient(
         circle at 50% 170%,
         #7098be 30%,
@@ -90,8 +90,8 @@
 .headEva::before {
     content: "";
     position: absolute;
-    height: 160px;
-    width: 200px;
+    height: 100%;
+    width: 100%;
     border-radius: 70% 60% 70% 50% / 80% 75% 50% 50%;
     background: radial-gradient(
         circle at 30% 0px,
@@ -139,11 +139,11 @@
 .lightTwoEva::after {
     content: "";
     position: absolute;
-    top: -3px;
+    top: -1px;
     left: 6px;
     transform: rotate(-9deg);
-    height: 10px;
-    width: 30px;
+    height: 100%;
+    width: 100%;
     border-radius: 110% 10% 50% 60% / 10% 10% 50% 70%;
     border: 3px;
     border-bottom-style: solid;
@@ -205,8 +205,8 @@
 .faceEva::before {
     content: "";
     position: absolute;
-    height: 95px;
-    width: 135px;
+    height: 100%;
+    width: 100%;
     border-radius: 70% 60% 70% 60% / 80% 70% 60% 50%;
     background: radial-gradient(
         circle at 10% 10%,
@@ -221,8 +221,8 @@
     content: "";
     position: absolute;
     top: -1px;
-    height: 95px;
-    width: 135px;
+    height: 100%;
+    width: 100%;
     border-radius: 70% 60% 70% 60% / 80% 70% 60% 50%;
     box-shadow: -3px -2px 3px 1px rgba(64, 146, 179, 0.7) inset;
 }
@@ -245,8 +245,8 @@
 .eyesRightEva::after {
     content: "";
     position: absolute;
-    width: 40px;
-    height: 25px;
+    width: 100%;
+    height: 100%;
     border-radius: 90% 70% 70% 80% / 70% 90% 70% 100%;
     background-color: #89e3fa8a;
     box-shadow: 0px 0px 2px 1px rgba(118, 183, 209, 0.87) inset,
@@ -274,8 +274,8 @@
 .eyesLeftEva::after {
     content: "";
     position: absolute;
-    width: 41px;
-    height: 26px;
+    width: 100%;
+    height: 100%;
     border-radius: 90% 70% 70% 80% / 70% 90% 70% 100%;
     background-color: #89e3fa8a;
     box-shadow: 0px 0px 2px 1px rgba(118, 183, 209, 0.87) inset,
@@ -303,15 +303,14 @@
     );
     box-shadow: 1px 0px 2px 1px rgba(185, 185, 185, 0.5);
     overflow: hidden;
-    filter: blur(0.5px);
     animation: moveEvaTrunk ease-in-out 7s infinite;
 }
 
 .trunkEva::before {
     content: "";
     position: absolute;
-    width: 200px;
-    height: 260px;
+    width: 100%;
+    height: 100%;
     border-radius: 8% 8% 70% 60% / 15% 15% 110% 110%;
     background: radial-gradient(
         circle at -30% 20%,
@@ -319,7 +318,6 @@
         rgba(124, 124, 124, 0.4) 60%
     );
     box-shadow: -1px -1px 0px 1px rgba(185, 185, 185, 0.856) inset;
-    filter: blur(0.5px);
 }
 
 .trunkEva::after {
@@ -340,7 +338,6 @@
     );
     border: solid rgba(151, 151, 151, 0.5) 1px;
     box-shadow: 0 -2px 0px 0.5px rgba(221, 221, 221, 0.8) inset;
-    filter: blur(0.5px);
 }
 
 .oneLightTruckEva {
@@ -359,15 +356,15 @@
 .oneLightTruckEva::after {
     content: "";
     position: absolute;
-    top: -3px;
+    top: -0px;
     left: 6px;
     transform: rotate(-3deg);
-    height: 10px;
-    width: 60px;
+    height: 100%;
+    width: 100%;
     border-radius: 110% 10% 50% 60% / 10% 10% 50% 70%;
     border: 3px;
     border-bottom-style: solid;
-    border-color: rgba(255, 255, 255, 0.774);
+    border-color: rgba(255, 255, 255, 0.6);
 }
 
 .twoLightTruckEva {
@@ -453,8 +450,8 @@
 .rightArmEva::before {
     content: "";
     position: absolute;
-    width: 35px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     background: radial-gradient(
         circle at 50px 40px,
         #ffffff56 50%,
@@ -560,8 +557,8 @@
 .leftArmEva::before {
     content: "";
     position: absolute;
-    width: 35px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     background: radial-gradient(
         circle at 50px 40px,
         #ffffff56 50%,
@@ -670,7 +667,7 @@
     background-color: #80ecffbe;
     box-shadow: 0px 0px 1px 0.5px #8ac1ee7e inset,
         0px 0px 3px 1px rgba(122, 203, 250, 0.9);
-    filter: blur(0.5px);
+    /* filter: blur(0.5px); */
     animation: diode2 linear 6s infinite;
 }
 .diodeEva::after {
@@ -678,13 +675,13 @@
     position: absolute;
     top: 1px;
     left: 13px;
-    width: 6px;
-    height: 6px;
+    width: 100%;
+    height: 100%;
     background-color: #80ecffbe;
     border-radius: 50%;
     box-shadow: 0px 0px 1px 0.5px #8ac1ee7e inset,
         0px 0px 3px 1px rgba(122, 203, 250, 0.9);
-    filter: blur(0.5px);
+    /* filter: blur(0.5px); */
     animation: diode3 linear 6s infinite;
 }
 .diodeEva::before {
@@ -692,13 +689,13 @@
     position: absolute;
     top: -1px;
     left: -13px;
-    width: 6px;
-    height: 6px;
+    width: 100%;
+    height: 100%;
     background-color: #80ecffbe;
     border-radius: 50%;
     box-shadow: 0px 0px 1px 0.5px #8ac1ee7e inset,
         0px 0px 3px 1px rgba(122, 203, 250, 0.9);
-    filter: blur(0.5px);
+    /* filter: blur(0.5px); */
     animation: diode1 linear 6s infinite;
 }
 
@@ -753,14 +750,14 @@
     }
     45% {
         background-color: #b42121e8;
-        box-shadow: 0px 0px 1px 0.5px #ee8a8a7e inset,
-            0px 0px 3px 1px rgba(250, 122, 122, 0.9);
+        /* box-shadow: 0px 0px 1px 0.5px #ee8a8a7e inset,
+            0px 0px 3px 1px rgba(250, 122, 122, 0.9); */
     }
 
     54% {
         background-color: #b42121e8;
-        box-shadow: 0px 0px 1px 0.5px #ee8a8a7e inset,
-            0px 0px 3px 1px rgba(250, 122, 122, 0.9);
+        /* box-shadow: 0px 0px 1px 0.5px #ee8a8a7e inset,
+            0px 0px 3px 1px rgba(250, 122, 122, 0.9); */
     }
     60% {
         background-color: #80ecffbe;
@@ -787,14 +784,14 @@
     }
     78% {
         background-color: #b42121e8;
-        box-shadow: 0px 0px 1px 0.5px #ee8a8a7e inset,
-            0px 0px 3px 1px rgba(250, 122, 122, 0.9);
+        /* box-shadow: 0px 0px 1px 0.5px #ee8a8a7e inset,
+            0px 0px 3px 1px rgba(250, 122, 122, 0.9); */
     }
 
     87% {
         background-color: #b42121e8;
-        box-shadow: 0px 0px 1px 0.5px #ee8a8a7e inset,
-            0px 0px 3px 1px rgba(250, 122, 122, 0.9);
+        /* box-shadow: 0px 0px 1px 0.5px #ee8a8a7e inset,
+            0px 0px 3px 1px rgba(250, 122, 122, 0.9); */
     }
     93% {
         background-color: #80ecffbe;
