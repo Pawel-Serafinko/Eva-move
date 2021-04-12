@@ -409,7 +409,6 @@
     border-bottom-style: solid;
     border-color: rgba(138, 138, 138, 0.774);
     border-radius: 110% 10% 50% 60% / 10% 10% 50% 70%;
-    /* filter: blur(1px); */
 }
 
 /* / ARM EVA */
@@ -418,7 +417,6 @@
     position: absolute;
     top: 47%;
     left: 74%;
-    /* transform-origin: 0% 0%; */
     transform: translate(-50%, 0%) rotate(-5deg);
     width: 35px;
     height: 200px;
@@ -600,7 +598,6 @@
     width: 4px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 3px 2px white;
-    /* border-color: rgb(255, 255, 255); */
     border-radius: 40%;
 }
 
@@ -625,8 +622,6 @@
     transform: translateX(-45%) rotate(-3deg) scale(-1);
     width: 300px;
     height: 260px;
-    /* background: radial-gradient(circle at 25% 20%, #ffffff, #b4b4b4 30%, #505255 80%, #63676b 100%); */
-    /* background: radial-gradient(circle at -30% 20%, #ffffff, #ffffffe0 60%, #7c7c7e 70%, #3f3a3a 110%); */
     background: radial-gradient(
         circle at 50% -10%,
         #ffffff00 15%,
@@ -635,8 +630,6 @@
         #ffffff98 90%
     );
     border-radius: 8% 8% 70% 60% / 15% 15% 110% 110%;
-    /* box-shadow: 1px 0px 3px 2px rgba(185, 185, 185, 0.5); */
-    /* overflow: hidden; */
     filter: blur(3.5px);
     animation: reflectionEva ease-in-out 7s infinite;
 }
@@ -648,14 +641,9 @@
     transform: rotate(2deg);
     width: 250px;
     height: 20px;
-    /* background: radial-gradient(circle at 25% 20%, #ffffff, #b4b4b4 30%, #505255 80%, #63676b 100%); */
-    /* background: radial-gradient(circle at -30% 20%, #ffffff, #ffffffe0 60%, #7c7c7e 70%, #3f3a3a 110%); */
-    /* background: radial-gradient(circle at 50% -10%, #ffffff00 15%, #a7a7a700 70%, #b4b4b45d 80%, #ffffffa2 90%); */
     background-color: rgba(255, 255, 255, 0.185);
     border-radius: 50%;
     box-shadow: 1px 0px 3px 2px rgba(231, 231, 231, 0.267);
-    /* overflow: hidden; */
-    /* filter: blur(1px); */
 }
 
 .reflectionEva::after {
@@ -666,14 +654,9 @@
     transform: rotate(2deg);
     width: 80px;
     height: 20px;
-    /* background: radial-gradient(circle at 25% 20%, #ffffff, #b4b4b4 30%, #505255 80%, #63676b 100%); */
-    /* background: radial-gradient(circle at -30% 20%, #ffffff, #ffffffe0 60%, #7c7c7e 70%, #3f3a3a 110%); */
-    /* background: radial-gradient(circle at 50% -10%, #ffffff00 15%, #a7a7a700 70%, #b4b4b45d 80%, #ffffffa2 90%); */
     background-color: rgba(255, 255, 255, 0.589);
     border-radius: 50%;
     box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.39);
-    /* overflow: hidden; */
-    /* filter: blur(1px); */
 }
 
 .diodeEva {
