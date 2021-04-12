@@ -145,7 +145,7 @@
     height: 100%;
     width: 100%;
     border-radius: 110% 10% 50% 60% / 10% 10% 50% 70%;
-    border: 3px;
+    border: 2px;
     border-bottom-style: solid;
     border-color: rgba(255, 255, 255, 0.705);
     filter: blur(1px);
@@ -353,20 +353,6 @@
     border-color: rgb(255, 255, 255);
 }
 
-.oneLightTruckEva::after {
-    content: "";
-    position: absolute;
-    top: -0px;
-    left: 6px;
-    transform: rotate(-3deg);
-    height: 100%;
-    width: 100%;
-    border-radius: 110% 10% 50% 60% / 10% 10% 50% 70%;
-    border: 3px;
-    border-bottom-style: solid;
-    border-color: rgba(255, 255, 255, 0.6);
-}
-
 .twoLightTruckEva {
     position: absolute;
     top: 30%;
@@ -375,7 +361,7 @@
     height: 20px;
     width: 100px;
     border-radius: 50% / 50%;
-    border: 3px;
+    border: 2px;
     border-bottom-style: solid;
     border-color: rgba(219, 219, 219, 0.7);
 }
